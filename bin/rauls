@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts "Don't touch that, it's Raul's"
+puts "Don't touch that, it's Raul's" unless `whoami`.strip == 'raul'
